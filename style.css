@@ -1,0 +1,359 @@
+* html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    width: 26rem;
+    height: 40rem;
+    background-image: url(images/bg-main-desktop.png);
+}
+
+.jane{
+    display: flex;
+    flex-flow:column;
+    width: 21rem;
+    height: 11.5rem;
+    border: 1px solid block;
+    border-radius: 0.5rem;
+    background-image: url(images/bg-card-front.png);
+    margin: 8rem 1rem 1rem 11.5rem;
+}
+
+.white_circle {
+    width: 2.4rem;
+    height: 2.4rem;  
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.round_circle {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin: -1.8rem 0 0 4.8rem; 
+    border: 1px solid white;
+}
+
+.zero {
+    color: white;
+    margin-top: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    height: 2rem;
+}
+
+.info {
+    color: white;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name {
+    padding-left: 1.5rem;
+}
+
+.date {
+    padding-right: 1.5rem;
+}
+
+.card {
+    display: flex;
+    flex-flow:column;
+    width: 21rem;
+    height: 11.5rem;
+    align-items: center;
+    border: 1px solid block;
+    border-radius: 0.5rem;
+    background: hsl(270, 3%, 87%);
+    margin: 1.8rem 1rem 1rem 15.5rem; 
+    
+}
+
+.cardboard {
+    width: 21rem;
+    height: 2.5rem;
+    margin-top: 1.1rem;
+    background-color: hsl(240, 2%, 12%);
+}
+
+.grayboard {
+    color: hsl(0, 0%, 100%);
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    width: 17rem;
+    padding: 0.3rem;
+    text-align: end;
+    background-color: rgb(161, 160, 160);
+}
+
+.card > p {
+    margin-top: 2rem;
+    color: rgb(88, 87, 87);
+    font-size: 0.7rem;
+    width: 12rem;
+    text-align: center;
+}
+
+.cardinfo {
+    width: max-content;
+    margin: -23rem 0 0 46rem;
+}
+
+h3 {
+    font-size: 0.8rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: hsl(278, 68%, 11%);
+    letter-spacing: 0.1rem;
+}
+
+.dateinfo {
+    display: flex;
+    flex-direction: row;
+}
+
+#tex, #month, #year, #numb,#butt {
+    width: 20rem;
+    margin-top: -1rem;
+    border: 2px solid rgb(211, 209, 209);
+    color:  hsl(278, 68%, 11%);
+    padding: 0.6rem 0.4rem 0.6rem 0.7rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#month {
+    width: 3rem;
+    margin:2rem 0.5rem 0.1rem -9.1rem;
+
+}
+
+#year {
+    width: 3rem;
+    margin: 2rem 0.1rem 0.1rem 0.1rem;
+
+}
+
+#numb {
+    width: 8.9rem;
+    margin: 2rem 0.1rem 0.1rem -2rem;
+
+}
+
+.cv {
+    padding-left: 1.7rem;
+}
+
+#butt {
+    width: 21.5rem;
+    background: hsl(278, 68%, 11%);
+    margin-top: 1.5rem;
+    border-radius: 0.6rem;
+    border-color: transparent;
+    padding: 0.9rem 0.6rem 0.9rem 0.6rem;
+}
+
+#butt > a {
+    text-decoration: none;
+    color: white;
+}
+
+.attribution {
+    /* position: relative; */
+    margin: 12rem auto;
+    color: white;
+    
+}
+
+.attribution > a {
+    color: gray;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 500px) {
+    .box {
+        position: absolute;
+        width: 23.3rem;
+        height: 15rem;
+        background-image: url(images/bg-main-desktop.png);
+    }
+    
+    .jane{
+        position: relative;
+        width: 17.6rem;
+        height: 10.3rem;
+        border: 1px solid block;
+        border-radius: 0.5rem;
+        background-image: url(images/bg-card-front.png);
+        background-size: cover;
+        margin: 7rem 1rem 1rem 1rem;
+    }
+    
+    .white_circle {
+        width: 2.4rem;
+        height: 2.4rem;  
+        border-radius: 50%;
+        background-color: white;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+    
+    .round_circle {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        margin: -1.8rem 0 0 4.8rem; 
+        border: 1px solid white;
+    }
+    
+    .zero {
+        color: white;
+        margin-top: 3.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        width: fit-content;
+        height: 2rem;
+    }
+    
+    .info {
+        color: white;
+        display: flex;
+        margin-bottom: 0.7rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .name {
+        padding-left: 1.5rem;
+    }
+    
+    .date {
+        padding-right: 1.5rem;
+    }
+    
+    .card {
+        z-index: 1;
+        display: flex;
+        flex-flow:column;
+        width: 17.7rem;
+        height: 10.3rem;
+        align-items: center;
+        border: 1px solid block;
+        border-radius: 0.5rem;
+        background: hsl(270, 3%, 87%);
+        margin: -16.5rem 1rem 1rem 4.1rem; 
+        
+    }
+    
+    .cardboard {
+        width: 17.7rem;
+        height: 2.7rem;
+        margin-top: 1.1rem;
+        background-color: hsl(240, 2%, 12%);
+    }
+    
+    .grayboard {
+        color: hsl(0, 0%, 100%);
+        margin-top: 1rem;
+        border-radius: 0.2rem;
+        width: 14.7rem;
+        font-size: 0.6rem;
+        padding: 0.5rem;
+        text-align: end;
+        background-color: rgb(161, 160, 160);
+    }
+    
+    .card > p {
+        margin-top: 2rem;
+        color: rgb(88, 87, 87);
+        font-size: 0.7rem;
+        width: 12rem;
+        text-align: center;
+    }
+    
+    .cardinfo {
+        width: max-content;
+        margin: 8rem 0 0 1.2rem;
+    }
+    
+    h3 {
+        font-size: 0.8rem;
+        font-family:Arial, Helvetica, sans-serif;
+        color: hsl(278, 68%, 11%);
+        letter-spacing: 0.1rem;
+    }
+    
+    .dateinfo {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #tex, #month, #year, #numb,#butt {
+        width: 19.7rem;
+        border: 2px solid rgb(211, 209, 209);
+        color:  hsl(278, 68%, 11%);
+        padding: 0.6rem 0.4rem 0.6rem 0.7rem;
+        border-radius: 0.3rem;
+        font-size: 0.9rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #month {
+        width: 2.5rem;
+        margin:2rem 0.4rem 0.1rem -9.1rem;
+    
+    }
+    
+    #year {
+        width: 2.5rem;
+        margin: 2rem 0 0 0.1rem;
+    
+    }
+    
+    #numb {
+        width: 9.7rem;
+        padding: 0.6rem 0.4rem 0.7rem 0.7rem;
+    
+    }
+    
+    .cv {
+        padding-left: 1.7rem;
+    }
+    
+    #butt {
+        width: 21rem;
+        background: hsl(278, 68%, 11%);
+        margin-top: 1.5rem;
+        border-radius: 0.6rem;
+        border-color: transparent;
+        padding: 0.9rem 0.6rem 0.9rem 0.6rem;
+    }
+    
+    #butt > a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .attribution {
+        margin: 2rem auto;
+        color: gray;
+        
+    }
+    
+}
